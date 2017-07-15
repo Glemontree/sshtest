@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2017-7-15 14:14:23 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.glemontree.ssh.entities.Product" table="PRODUCT">
+        <id name="pid" type="java.lang.Integer">
+            <column name="PID" />
+            <generator class="native" />
+        </id>
+        <property name="pname" type="java.lang.String">
+            <column name="PNAME" />
+        </property>
+        <property name="price" type="double">
+            <column name="PRICE" />
+        </property>
+    </class>
+</hibernate-mapping>
